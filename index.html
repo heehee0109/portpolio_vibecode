@@ -6,16 +6,16 @@
   <title>김태희 | Data Analyst Portfolio</title>
   <style>
     :root {
-      --bg: #0a0e1a;
-      --bg2: #0f1629;
-      --bg3: #161d35;
-      --accent: #4f8ef7;
-      --accent2: #7c5cbf;
-      --accent3: #00d4aa;
-      --text: #e2e8f8;
-      --muted: #8892aa;
-      --card: #131b2e;
-      --border: #1e2d4a;
+      --bg: #f7f9ff;
+      --bg2: #eef2ff;
+      --bg3: #e4eaff;
+      --accent: #3b7de8;
+      --accent2: #6b48c8;
+      --accent3: #00a884;
+      --text: #1a2140;
+      --muted: #6b7593;
+      --card: #ffffff;
+      --border: #d0d8f0;
     }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -38,7 +38,7 @@
       justify-content: space-between;
       padding: 0 6%;
       height: 64px;
-      background: rgba(10,14,26,0.85);
+      background: rgba(247,249,255,0.92);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
     }
@@ -110,8 +110,8 @@
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      background: rgba(79,142,247,0.12);
-      border: 1px solid rgba(79,142,247,0.3);
+      background: rgba(59,125,232,0.1);
+      border: 1px solid rgba(59,125,232,0.25);
       color: var(--accent);
       padding: 6px 14px;
       border-radius: 999px;
@@ -165,12 +165,12 @@
     .btn-primary {
       background: linear-gradient(135deg, var(--accent), var(--accent2));
       color: #fff;
-      box-shadow: 0 4px 20px rgba(79,142,247,0.35);
+      box-shadow: 0 4px 20px rgba(59,125,232,0.3);
     }
 
     .btn-primary:hover {
       transform: translateY(-2px);
-      box-shadow: 0 8px 30px rgba(79,142,247,0.5);
+      box-shadow: 0 8px 30px rgba(59,125,232,0.4);
     }
 
     .btn-outline {
@@ -192,7 +192,7 @@
       border: 1px solid var(--border);
       border-radius: 16px;
       padding: 24px;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+      box-shadow: 0 20px 60px rgba(59,125,232,0.12);
       animation: float 4s ease-in-out infinite;
     }
 
@@ -332,7 +332,7 @@
       width: 100%;
       aspect-ratio: 1;
       border-radius: 20px;
-      background: linear-gradient(135deg, var(--bg3), var(--bg));
+      background: linear-gradient(135deg, var(--bg2), var(--bg3));
       border: 1px solid var(--border);
       display: flex;
       align-items: center;
@@ -346,7 +346,7 @@
       content: '';
       position: absolute;
       inset: 0;
-      background: linear-gradient(135deg, rgba(79,142,247,0.1), rgba(0,212,170,0.05));
+      background: linear-gradient(135deg, rgba(59,125,232,0.07), rgba(0,168,132,0.04));
     }
 
     .about-badge {
@@ -360,7 +360,7 @@
       display: flex;
       align-items: center;
       gap: 10px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+      box-shadow: 0 8px 24px rgba(59,125,232,0.1);
     }
 
     .about-badge-icon { font-size: 1.5rem; }
@@ -423,6 +423,7 @@
     .skill-category:hover {
       transform: translateY(-4px);
       border-color: var(--accent);
+      box-shadow: 0 8px 32px rgba(59,125,232,0.12);
     }
 
     .skill-cat-header {
@@ -439,7 +440,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: rgba(79,142,247,0.1);
+      background: rgba(59,125,232,0.1);
       border-radius: 10px;
     }
 
@@ -491,7 +492,7 @@
     .project-card:hover {
       transform: translateY(-6px);
       border-color: var(--accent);
-      box-shadow: 0 16px 40px rgba(79,142,247,0.15);
+      box-shadow: 0 16px 40px rgba(59,125,232,0.15);
     }
 
     .project-thumb {
@@ -504,12 +505,12 @@
       overflow: hidden;
     }
 
-    .thumb-1 { background: linear-gradient(135deg, #0d1b3e, #1a2f5e); }
-    .thumb-2 { background: linear-gradient(135deg, #0d2b1b, #1a5e3a); }
-    .thumb-3 { background: linear-gradient(135deg, #2b0d2b, #5e1a5e); }
-    .thumb-4 { background: linear-gradient(135deg, #2b1a0d, #5e3a1a); }
-    .thumb-5 { background: linear-gradient(135deg, #0d2b2b, #1a5e5e); }
-    .thumb-6 { background: linear-gradient(135deg, #1a0d2b, #3a1a5e); }
+    .thumb-1 { background: linear-gradient(135deg, #dbe8ff, #b8d0ff); }
+    .thumb-2 { background: linear-gradient(135deg, #d1f5ea, #a8e8d0); }
+    .thumb-3 { background: linear-gradient(135deg, #ead8ff, #d0b0ff); }
+    .thumb-4 { background: linear-gradient(135deg, #ffecd8, #ffd8b0); }
+    .thumb-5 { background: linear-gradient(135deg, #d8f5f5, #b0e8e8); }
+    .thumb-6 { background: linear-gradient(135deg, #e4d8ff, #c8b0f5); }
 
     .project-body { padding: 24px; }
 
@@ -521,8 +522,8 @@
     }
 
     .ptag {
-      background: rgba(79,142,247,0.1);
-      border: 1px solid rgba(79,142,247,0.2);
+      background: rgba(59,125,232,0.08);
+      border: 1px solid rgba(59,125,232,0.2);
       color: var(--accent);
       padding: 3px 10px;
       border-radius: 999px;
@@ -575,7 +576,7 @@
       top: 8px;
       bottom: 8px;
       width: 2px;
-      background: linear-gradient(180deg, var(--accent), var(--accent2), transparent);
+      background: linear-gradient(180deg, var(--accent), var(--accent2), var(--border));
     }
 
     .timeline-item {
@@ -592,7 +593,7 @@
       height: 12px;
       background: var(--accent);
       border-radius: 50%;
-      box-shadow: 0 0 0 4px rgba(79,142,247,0.2);
+      box-shadow: 0 0 0 4px rgba(59,125,232,0.15);
     }
 
     .tl-period {
@@ -795,7 +796,7 @@
       bottom: 32px;
       right: 32px;
       background: var(--accent3);
-      color: #000;
+      color: #fff;
       padding: 14px 24px;
       border-radius: 10px;
       font-weight: 700;
@@ -830,15 +831,15 @@
     }
 
     .glow-1 {
-      width: 400px; height: 400px;
-      background: rgba(79,142,247,0.08);
-      top: -100px; right: -100px;
+      width: 500px; height: 500px;
+      background: rgba(59,125,232,0.07);
+      top: -150px; right: -150px;
     }
 
     .glow-2 {
-      width: 300px; height: 300px;
-      background: rgba(0,212,170,0.06);
-      bottom: -50px; left: -50px;
+      width: 400px; height: 400px;
+      background: rgba(0,168,132,0.05);
+      bottom: -100px; left: -100px;
     }
 
     #hero > * { position: relative; z-index: 1; }
@@ -858,8 +859,9 @@
         flex-direction: column;
         position: fixed;
         top: 64px; left: 0; right: 0;
-        background: var(--bg2);
+        background: var(--card);
         border-bottom: 1px solid var(--border);
+        box-shadow: 0 4px 16px rgba(59,125,232,0.08);
         padding: 20px 6%;
         gap: 1.2rem;
         z-index: 998;
